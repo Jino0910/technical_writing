@@ -190,7 +190,6 @@ import URLNavigator
 ### 파일네임
 
 - 단일 유형을 포함하는 파일의 MyType이름은 MyType.swift입니다.
-- 형식 MyType과 일부 최상위 도우미 함수가 포함 된 파일 도 이름이 지정 MyType.swift됩니다. (최상위 도우미는 기본 엔터티가 아닙니다.)
 - MyType프로토콜에 적합성을 추가 하는 유형에 대한 단일 확장자를 포함하는 파일의 MyProtocol이름은 MyType+MyProtocol.swift입니다.
 - 형식에 여러 가지 확장자를 포함하는 파일 MyType은 형식에 접두사, 중첩 형식 또는 기타 기능을 추가하는 것이 더 일반적입니다 MyType+. 예를 들면 다음과 같습니다 MyType+Extensions.swift.
 - 공통 유형 또는 네임 스페이스 (예 : 전역 수학 함수 모음)로 범위가 지정되지 않은 관련 선언이 포함 된 파일은 설명 적으로 이름을 지정할 수 있습니다. 예를 들면 다음과 같습니다 Math.swift.
