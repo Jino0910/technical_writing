@@ -266,7 +266,7 @@ import URLNavigator
 
 ### Property
 
-- Static and class properties that return instances of the declaring type are not suffixed with the name of the type.
+- 선언 형식의 인스턴스를 반환하는 정적 및 클래스 속성에는 이름이 접미사로 붙지 않습니다.
 
     **좋은 예**
     ```swift
@@ -319,8 +319,6 @@ import URLNavigator
         case Failure
     }
     ```
-
-- 열거 형의 경우 저자가 요청할 경우 설명 할 수있는 논리적 순서를 따라야합니다. 논리적 순서가 분명하지 않은 경우 사례 이름을 기준으로 사전 식 순서를 사용하십시오.
 
 - 다음 예에서 사례는 기본 HTTP 상태 코드를 기반으로 숫자 순서로 정렬되며 빈 줄은 그룹을 구분하는 데 사용됩니다.
 
