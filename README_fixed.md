@@ -4,17 +4,18 @@ Swift Style Guide (코드 컨벤션)
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 
 ## 개요
-협업시 `일관성`있는 Swift 코드를 유지하기 위한 스타일 가이드입니다. 코드의 일관성을 유지하면 코드리뷰할때 문법보다 `로직`에 집중할 수 있습니다.
+본 문서는 iOS팀이 함께 개발할때 코드의 일관성을 유지하기 위한 스타일 가이드입니다.  
+일관성이 유지된 코드는 협업하는 다른 개발자가 보더라도 문법보다 로직에 집중할 수 있는 읽기 쉬운코드가 됩니다.
 
-사내 iOS팀에서 사용중인 문서이며 코드 컨벤션을 도입하는 외부 iOS팀에게 좋은 초안이 될 수 있습니다
+iOS팀에서 작성중인 해당 문서는 코드 컨벤션을 도입하는 외부 iOS팀에게 좋은 초안이 될 수 있습니다
 
-[참조한 문서]
+[관련 문서]
 - [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines)
 - [Swift Style Guide](https://google.github.io/swift/)
 
 ## 목차
 
-- [1. Swift란](#1-Swift란)
+- [1. Swift?](#1-Swift?)
 - [2. 코드 레이아웃](#2-코드-레이아웃)
     - [2.1 들여쓰기 및 띄어쓰기](#21-들여쓰기-및-띄어쓰기)
     - [2.2 줄바꿈](#22-줄바꿈)
@@ -40,13 +41,16 @@ Swift Style Guide (코드 컨벤션)
 - [5. 부록](#5-부록)
   - [프로그래밍 권장사항](#프로그래밍-권장사항)
 
-## 1. Swift란
-Apple의 iOS와 macOS를 위한 프로그래밍 언어로 누구나 놀라운 앱을 만들 수 있게 해주는 강력한 개방형 언어입니다.  
+## 1. Swift?
+Apple의 iOS와 macOS를 위한 프로그래밍 언어입니다. 기존의 애플 운영 체제용 언어인 Objective-C와 같이 사용하기 위해 만들어졌습니다.  
+따라서 Objective-C와 동일하게 LLVM(컴파일러)를 통해 빌드가 되고 같은 런타임을 공유합니다.  
+Objective-C에는 없던 기능이 추가되었습니다.(클로저, 다중 리턴 타입, 네임스페이스, 제너릭, 타입 유추 등)  
+Apple이 공개한 언어적 특징으로는 안정성, 신속성, 표현성입니다 그리고 객체지향, 함수형, 프로토콜지향 프로그래밍 패러다임을 차용한 프로그래밍 언어입니다
 
-<img width="80%" src="https://user-images.githubusercontent.com/25897138/172535490-a47d6858-46d3-4501-bb2e-800eb7597dcd.jpeg">
+<img width="100%" src="https://user-images.githubusercontent.com/25897138/172535490-a47d6858-46d3-4501-bb2e-800eb7597dcd.jpeg">  
 
-
-## 2. 코드 레이아웃
+## 2. 코드 레이아웃 
+코드의 들여쓰기, 띄어쓰기, 줄바꿈등 코드의 포맷에 대한 가이드입니다  
 
 ### 2.1 들여쓰기 및 띄어쓰기
 
@@ -57,7 +61,8 @@ Apple의 iOS와 macOS를 위한 프로그래밍 언어로 누구나 놀라운 �
     let names: [String: String]?
     ```
 
-
+  
+  
 ### 2.2 줄바꿈
 
 - 함수의 인자가 1개일 경우에는 아래와 같이 줄바꿈합니다.
